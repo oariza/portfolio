@@ -1,10 +1,9 @@
+import Footer from "../../components/Footer";
+import omar from "../../assets/omar2.jpg";
+
 import { Container, Content } from "../../styled/Global";
 
-import Footer from "../../components/Footer";
-
 import * as Styled from "./styled";
-
-import omar from "../../assets/omar2.jpg";
 
 function AboutMe() {
   return (
@@ -17,10 +16,10 @@ function AboutMe() {
               <img src={omar} alt="Omar Ariza" />
             </div>
             <p>
-              Mi nombre es Omar, soy desarrollador web Front End. Tengo gusto
-              por un buen café, los gatos, el cine y los videojuegos. Me gusta
-              participar en trabajos en los que pueda cooperar con distintas
-              áreas y lograr nuevas experiencias para todos.
+              Mi nombre es Omar, soy Desarrollador Front End. Tengo gusto por
+              conocer nuevos lugares, las mascotas, el cine y los videojuegos.
+              Me encanta participar en trabajos en los que pueda cooperar con
+              distintas áreas y lograr nuevas experiencias para todos.
             </p>
           </Styled.AboutMe>
           <h2>¿Qué puedo hacer?</h2>
@@ -30,7 +29,7 @@ function AboutMe() {
               <p>
                 Construyo aplicaciones web con funcionalidades modernas y las
                 mejores prácticas, Utilizando tecnología moderna como HTML5,
-                CSS, Javascript, React Js y Bootstrap.
+                CSS, Javascript, ReactJS y Bootstrap.
               </p>
             </div>
             <div>

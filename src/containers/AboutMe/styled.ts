@@ -31,7 +31,7 @@ export const WhatCanIDo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   @media (min-width: ${screenSize.tablet}) {
     flex-direction: row;
     max-width: 900px;
@@ -46,5 +46,8 @@ export const WhatCanIDo = styled.div`
     border: 1px solid darkgreen;
     border-radius: 20px;
     font-size: 1.2rem;
+    &:hover {
+      background-color: lightgreen;
+    }
   }
 `;
